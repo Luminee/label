@@ -1,0 +1,32 @@
+{
+    "name": "luminee/label",
+    "description": "Build",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LuminEe",
+            "email": "1123462990@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Luminee\\Label\\": "src/",
+            "Luminee\\Label\\Tests": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Luminee\\Label\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "5.1.x|5.5.x"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.5.x-dev"
+    }
+}
