@@ -11,7 +11,11 @@
     ],
     "autoload": {
         "psr-4": {
-            "Luminee\\Label\\": "src/",
+            "Luminee\\Label\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
             "Luminee\\Label\\Tests": "tests/"
         }
     },

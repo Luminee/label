@@ -1,19 +1,12 @@
 <?php
 
-namespace Luminee\Label\Tests;
-
-//use Tests\TestCase;
-use Illuminate\Foundation\Testing\RefreshDatabase;
+use PHPUnit\Framework\TestCase;
 
 class ExampleTest extends TestCase
 {
-    /**
-     * A basic test example.
-     *
-     * @return void
-     */
-    public function testBasicTest()
+
+    public function testAbc()
     {
-        $this->assertTrue(true);
+        $this->assertEquals(1,1);
     }
 }
