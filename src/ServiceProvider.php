@@ -23,12 +23,6 @@ class ServiceProvider extends _ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('command.label.migrate', function () {
-            return new \Luminee\Label\Console\Commands\LabelMigrateCommand();
-        });
-    
-        $this->commands('command.label.migrate');
-        
         $this->mergeConfigFrom(realpath(__DIR__.'/../config/label.php'), 'label');
     }
 }

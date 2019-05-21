@@ -2,9 +2,10 @@
 
 namespace Luminee\Label\Model;
 
+use Luminee\Base\Models\BaseModel;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Label extends _BaseModel
+class Label extends BaseModel
 {
     use SoftDeletes;
     protected $dates = ['deleted_at'];

@@ -28,7 +28,8 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "laravel/framework": "5.1.x|5.5.x"
+        "laravel/framework": "5.1.x|5.5.x",
+        "luminee/laravel-base": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "7.5.x-dev"
